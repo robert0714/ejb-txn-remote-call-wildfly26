@@ -1,0 +1,5 @@
+data-source add --jndi-name=java:jboss/datasources/ejbJtaDs --name=ejbJtaDs  \
+ --connection-url=jdbc:h2:mem:ejbJtaDs;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE  \
+ --driver-name=h2database  --user-name=sa  \
+ --password=sa  \
+ --enabled=true 
